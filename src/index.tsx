@@ -8,10 +8,20 @@ export default function Command() {
         title="Greeting"
         actions={
           <ActionPanel>
-            <Action.Push title="Show Details" target={<Detail markdown="# Hey! 👋" />} />
+            <Action.Push title="Show Details" target={<Detail markdown="# Hello world! 👋" />} />
+          </ActionPanel>
+        }
+      />
+      <List.Item
+        icon="list-icon.png"
+        title="Greeting2"
+        actions={
+          <ActionPanel>
+            <Action.Push title="Show Details" target={<Detail markdown="# Hello world! 👋" />} />
           </ActionPanel>
         }
       />
     </List>
   );
 }
+//sc-bZQynM DRpyB sc-bxivhb eJWSlY
