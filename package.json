@@ -12,14 +12,26 @@
       "name": "index",
       "title": "Show List and Detail",
       "description": "Template for showing a static list and a detail view",
-      "mode": "view"
+      "mode": "view",
+      "arguments": [
+        {
+          "name": "title",
+          "placeholder": "Title",
+          "type": "text",
+          "required": true
+        }
+      ]
     }
   ],
   "dependencies": {
     "@raycast/api": "^1.45.2",
+    "dom-parser": "^0.1.6",
+    "htmlparser2": "^8.0.1",
     "node-fetch": "^3.3.0"
   },
   "devDependencies": {
+    "@types/dom-parser": "^0.1.1",
+    "@types/jsdom": "^20.0.1",
     "@types/node": "18.8.3",
     "@types/react": "18.0.9",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
